@@ -25,4 +25,10 @@ if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||
       ++space;
     }
 }
+printf("Vowels: %d", vowels);
+  printf("\nConsonants: %d", consonant);
+  printf("\nDigits: %d", digit);
+  printf("\nWhite spaces: %d", space);
 
+  return 0;
+}
