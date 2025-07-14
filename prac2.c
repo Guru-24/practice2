@@ -16,4 +16,11 @@ if (num2 == 0) {
         printf("Error: Division by zero is not allowed.\n");
         return 1;
     }
+ quotient = num1 / num2;
+    remainder = num1 % num2;
 
+    printf("Quotient: %lld\n", quotient);
+    printf("Remainder: %lld\n", remainder);
+
+    return 0;
+}
