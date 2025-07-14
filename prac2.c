@@ -8,4 +8,12 @@ int main() {
 
     printf("Enter second 8-digit number: ");
     scanf("%lld", &num2);
+if (num1 < 10000000 || num1 > 99999999 || num2 < 10000000 || num2 > 99999999) {
+        printf("Error: Both numbers must be 8-digit numbers.\n");
+        return 1;
+    }
+if (num2 == 0) {
+        printf("Error: Division by zero is not allowed.\n");
+        return 1;
+    }
 
