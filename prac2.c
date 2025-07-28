@@ -19,8 +19,8 @@ if (num2 == 0) {
  quotient = num1 / num2;
     remainder = num1 % num2;
 
-    printf("Quotient: %lld\n", quotient);
-    printf("Remainder: %lld\n", remainder);
-
-    return 0;
+    
+        return 0;
 }
+@@@@@@@@@@
+LINE ADDED1
